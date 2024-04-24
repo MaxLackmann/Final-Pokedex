@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 1;
+}
+
+.header-left a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.header-left img {
+  height: 120px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right input {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  background-color: white;
+}
+
+.main {
+  /*Nur ein Beispiel später anpassen*/
+  background-image: url(./img/backgroundMain.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  margin: 8px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.showcards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  height: 230px;
+  width: 230px;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: url(./img/backgroundCard.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.cardname {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12px;
+  color: white;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.card-image img {
+  height: 150px;
+}
+
+.card-types {
+  display: flex;
+  justify-content: center;
+}
+
+.card-types p {
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 4px;
+  margin: 4px;
+  color: white;
+  font-weight: bold;
+}

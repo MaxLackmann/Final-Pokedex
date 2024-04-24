@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+#pokedex {
+  background-color: #f96c6c;
+  color: white;
+  padding: 24px;
+  min-height: 50vh;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  min-height: 100px;
+}
+
+.info-container img {
+  height: 300px;
+  margin-top: -200px;
+}

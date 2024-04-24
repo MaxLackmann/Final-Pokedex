@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="icon" href="./img/header.png" />
+    <link rel="stylesheet" href="./style/background.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/templates.js"></script>
+    <script src="./script/chart.js"></script>
+  </head>
+
+  <body onload="loadPokemon()">
+    <header>
+      <div class="header-left">
+        <a href="">
+          <h1>Pokedex</h1>
+          <img src="./img/header.png" alt="" />
+        </a>
+      </div>
+
+      <div class="header-right">
+        <input
+          type="text"
+          placeholder="Pokemon suchen..."
+          id="search"
+          onkeyup="searchPokemon()"
+        />
+      </div>
+    </header>
+
+    <section class="main">
+      <div></div>
+      <div id="showcards" class="showcards"></div>
+      <div id="showBigCard" class="showBigCard dnone"></div>
+    </section>
+  </body>
+</html>
